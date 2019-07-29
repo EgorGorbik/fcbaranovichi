@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, red, blue);
+}
+
+.table {
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 1%;
+}
+
+table td {
+    text-align: center;
+    padding: 0 !important;
+    color: white;
+}
+
+th {
+    text-align: center;
+}
+
+.thead {
+    color: white;
+    background: linear-gradient(to left, red, blue);
+    font-size: 20px;
+}
+
+.verb {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 824px){
+    .verb {
+        display: none; }
+}
+
+
+
