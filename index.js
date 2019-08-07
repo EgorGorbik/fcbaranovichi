@@ -1,4 +1,5 @@
 var array = [];
+var team = [];
 
 console.log("работает")
 /*https://apiv2.apifootball.com/?action=get_standings&league_id=48&lang=ru&APIkey=ee205a72644d8e5efeb3cab18204e53d1413f6491e0272256f287bb67f085bf8*/
