@@ -21,6 +21,10 @@ th {
     text-align: center;
 }
 
+tr {
+    height: 5vh;
+}
+
 .thead {
     color: white;
     background: linear-gradient(to left, red, blue);
@@ -89,11 +93,32 @@ video {
     .fullscreen-bg__video {
         display: none;
     }
+
+    header {
+        display: none;
+    }
 }
 
 header {
     width: 80%;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info_content {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 4%;
+}
+
+.mobile_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

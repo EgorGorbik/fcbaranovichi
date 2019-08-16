@@ -28,3 +28,11 @@ fetch('./standing.json')
         }
     })
 
+function f() {
+    if(document.getElementById('burger_menu').style.display !== 'block') {
+        document.getElementById('burger_menu').style.display = 'block';
+    } else {
+        document.getElementById('burger_menu').style.display = 'none';
+    }
+
+}

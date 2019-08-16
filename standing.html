@@ -10,10 +10,33 @@
     <meta name="keywords" content="Наиболее важные ключевые слова страницы для поисковых систем">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="burger.css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 <body>
 <img class="verb" src="./images/verb.gif" style="width: 30%">
+<div class="mobile_center">
+    <svg class="ham hamRotate ham8"  viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active'); f()">
+        <path
+                class="line top"
+                d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+        <path
+                class="line middle"
+                d="m 30,50 h 40" />
+        <path
+                class="line bottom"
+                d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+    </svg>
+    <h3 class="text-white text-center">ФК Барановичи</h3>
+    <img src="./images/logo.png" style="height: 60px; width: 60px;">
+
+</div>
+<div id="burger_menu">
+    <a href="information.html"><div class="border-bottom burger_menu_item" >информация о клубе</div></a>
+    <a href="standing.html"><div class="border-bottom burger_menu_item">таблица</div></a>
+    <a href="#"><div class="border-bottom burger_menu_item">новости</div></a>
+    <a href="#"><div class="border-bottom burger_menu_item">фотогалерея</div></a>
+</div>
 <header>
     <nav class="navbar border-bottom">
         <a class="navbar-brand" href="index.html">
@@ -48,9 +71,6 @@
         <tbody>
         </tbody>
     </table>
-</div>
-<div id="information">
-    <div>футбольный клуб барановичи</div>
 </div>
 <script src="index.js"></script>
 </body>
